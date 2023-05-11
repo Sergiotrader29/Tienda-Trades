@@ -37,6 +37,8 @@ public class TiendasController : ControllerBase
         return Ok(productos);
     }
 
+
+    // convertir imagen a base 64
     private string ConvertImageToBase64(string imagePath)
     {
         byte[] imageBytes = System.IO.File.ReadAllBytes(imagePath);
