@@ -1,4 +1,4 @@
-﻿namespace TiendaAPi.Models
+﻿namespace TiendaAPi.Entidades
 {
     public class Producto
     {

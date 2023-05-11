@@ -1,13 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using TiendaAPi;
 
 [Route("api/[controller]")]
 [ApiController]
 public class TiendasController : ControllerBase
 {
-    private readonly AppDbContext _dbContext;
+    private readonly ApplicationDbContest _dbContext;
 
-    public TiendasController(AppDbContext dbContext)
+    public TiendasController(ApplicationDbContest dbContext)
     {
         _dbContext = dbContext;
     }
