@@ -11,6 +11,13 @@ namespace TiendaAPi
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Tienda>()
+                .HasMany(t => t.Productos)
+                .WithOne(p => p.Tienda)
+                .HasForeignKey(p => p.TiendaID);
+        }
         public DbSet<Tienda> Tiendas { get; set; }
         public DbSet<Producto> Productos { get; set; }
 

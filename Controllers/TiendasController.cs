@@ -39,8 +39,8 @@ public class TiendasController : ControllerBase
 
     private string ConvertImageToBase64(string imagePath)
     {
-        // Lógica para convertir la imagen a base64
-        // Aquí debes leer el archivo de imagen desde el sistema de archivos y convertirlo a base64
-        return "base64_encoded_image";
+        byte[] imageBytes = System.IO.File.ReadAllBytes(imagePath);
+        string base64String = Convert.ToBase64String(imageBytes);
+        return base64String;
     }
 }
