@@ -79,3 +79,8 @@ C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\bin\Debug\net6.0\TiendaAPi.pdb
 C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\obj\Debug\net6.0\TiendaAPi.csproj.CopyComplete
 C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\obj\Debug\net6.0\TiendaAPi.genruntimeconfig.cache
 C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\obj\Debug\net6.0\ref\TiendaAPi.dll
+C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\bin\Debug\net6.0\Serilog.dll
+C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\pc\source\repos\TiendaAPi\TiendaAPi\bin\Debug\net6.0\Serilog.Sinks.File.dll
