@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
 using TiendaAPi;
 
 [Route("api/[controller]")]
@@ -15,6 +12,8 @@ public class TiendasController : ControllerBase
     {
         _dbContext = dbContext;
     }
+
+
 
     [HttpGet("{id}")]
     public async Task<IActionResult> GetProductos(int id)
